@@ -1,0 +1,17 @@
+{
+  "name": "habita",
+  "version": "1.0.0",
+  "description": "an web to-do list app that keeps track of your tasks and increase your productivity.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "copyfiles client/* index.js .env package*.json deploy",
+    "start": "node index.js"
+  },
+  "author": "Jack Ieong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
