@@ -81,6 +81,11 @@ ul > li {
     padding: 1rem 2rem;
 }
 
+li.completed {
+    color: rgba(128, 128, 128, 0.358) !important;
+    text-decoration: line-through;
+}
+
 #clear {
     cursor: pointer;
     display: flex;
@@ -88,4 +93,10 @@ ul > li {
     justify-content: center;
     max-width: 100%;
     width: 100px;
+}
+
+span {
+    color: rgb(76, 74, 74);
+    display: flex;
+    justify-content: center;
 }
